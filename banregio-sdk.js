@@ -10,8 +10,8 @@ banregio.api = function() {
         endpoints = {
             authorize: 'oauth/authorize',
             token: 'oauth/token/',
-            accounts: 'api/accounts/',
-            transactions: 'api/accounts/{}/transactions/'
+            accounts: 'accounts/',
+            transactions: 'accounts/{}/transactions/'
         }, getParameterByName, removeURLParameter, detectOAuthRedirect, saveTokenData,
         onLogin, onLogout, apiRequest;
 
