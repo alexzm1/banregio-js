@@ -122,7 +122,8 @@ banregio.api = function() {
             type: method,
             dataType: 'json',
             headers: {
-                'Authorization': 'Bearer ' + accessToken
+                'Authorization': 'Bearer ' + accessToken,
+                'Accept': version
             }
         };
 
