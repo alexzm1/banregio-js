@@ -8,7 +8,7 @@ Initialize:
 
     banregio.api.init({
         config: {
-            host: 'https://banregio-api.herokuapp.com/',
+            host: 'https://api.banregio.com/',
             clientId: '<client_id>',
             clientSecret: '<client_secret>',
             redirectUri: '<redirect_uri>'
@@ -21,6 +21,10 @@ Initialize:
         }
     });
     
+
+There are two possible values for the host parameter:
+- https://sandbox.banregio.com/ for development
+- https://api.banregio.com/ for production
 
 Login:
 
